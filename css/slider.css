@@ -12713,7 +12713,7 @@ img.mfp-img {
 }
 
 .owl-theme .owl-nav.disabled + .owl-dots {
-    margin-top: 10px
+    margin-top: 40px
 }
 
 .owl-theme .owl-dots .owl-dot {
@@ -15550,8 +15550,8 @@ img {
 
 .banner-area {
     height: 350px;
-    margin-top: 96px;
-    background-color: #006AB7;
+    margin-top: 90px;
+    background:none;
     background-image: url("../images/sec-img/aboutimg.jpg");
     background-size: cover;
     background-repeat: no-repeat

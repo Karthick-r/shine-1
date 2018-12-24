@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Shine Beauty</title>
+    <title>Shine Beauty Lounge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/slider.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -24,25 +25,23 @@
     <div class="container-fluid" style="background-color: #81213D;padding:0;">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <div class="top_block">
                         <ul>
                             <li class="hidden-xs" style="margin-top:5px;"><a href="#">For Appointment</a></li>
                             <li><a href="#"><i class="fa fa-phone"></i>&nbsp; 012 - 2463 8124</a></li>
-                            <li><a href="#"><i class="fa fa-envelope"></i> &nbsp; info@shinebeautylounge.com</a></li>
+                            <li><a href="#"><i class="fa fa-mobile" style="font-size: 20px;"></i>&nbsp; 07342884474</a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i> &nbsp; info@customer.serviceshinebeautylounge.com</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="social-buttons hidden-xs">
                         <a href="#" target="_blank" class="social-button facebook">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
                         <a href="#" target="_blank" class="social-button facebook">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                        <a href="#" target="_blank" class="social-button facebook">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
                         </a>
                         <a href="#" target="_blank" class="social-button facebook">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -245,11 +244,75 @@
         </div>
     </div>
 
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                   <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                    <h4 class="modal-title text-center">X_MAS OFFERS</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/offers1.jpg" class="img-responsive">
+                </div>
+                <!--<div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>-->
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal -->
+    <div id="myModal1" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                    <h4 class="modal-title text-center">NEW YEAR OFFERS</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/offers2.jpg" class="img-responsive">
+                </div>
+                <!--<div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>-->
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal -->
+    <div id="myModal2" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                    <h4 class="modal-title text-center">X_MAS OFFERS</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/offers1.jpg" class="img-responsive">
+                </div>
+                <!--<div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>-->
+            </div>
+
+        </div>
+    </div>
+
+
+
     <div class="container-fluid" style="position: relative;">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
 
+            <div class="img-carousel owl-carousel owl-theme owl-none owl-dots-primary-big owl-btn-center-lr owl-loade m-b30">
+                <div class="item" data-toggle="modal" data-target="#myModal">
                     <div class="tiles">
                         <a class="tile" href="#">
                             <img src="img/offers1.jpg" class="img-responsive">
@@ -258,9 +321,9 @@
                             </div>
                         </a>
                     </div>
-                    <h2 class="content_h2">X-MAS OFFERS</h2>
+                    <h2 class="content_h2" style="font-size: 25px;color:#81213D;">X-MAS OFFERS</h2>
                 </div>
-                <div class="col-md-6">
+                <div class="item" data-toggle="modal" data-target="#myModal1">
                     <div class="tiles">
                         <a class="tile" href="#">
                             <img src="img/offers2.jpg" class="img-responsive">
@@ -269,9 +332,19 @@
                             </div>
                         </a>
                     </div>
-                    <h2 class="content_h2">NEW YEAR OFFERS</h2>
+                    <h2 class="content_h2" style="font-size: 25px;color:#81213D;">NEW YEAR OFFERS</h2>
                 </div>
+                <div class="item" data-toggle="modal" data-target="#myModal2">
+                    <div class="tiles">
+                        <a class="tile" href="#">
+                            <img src="img/offers1.jpg" class="img-responsive">
+                            <div class="details">
 
+                            </div>
+                        </a>
+                    </div>
+                    <h2 class="content_h2" style="font-size: 25px;color:#81213D;">X-MAS OFFERS</h2>
+                </div>
             </div>
         </div>
     </div>
@@ -289,7 +362,8 @@
                     <div class="pricing-box text-center" style="background: url(img/sliver.jpg) no-repeat center / cover;">
                         <h3>Silver Pack</h3>
                         <hr>
-                        <h2><sup>$</sup>55<sub>/month</sub></h2>
+                        <h2><sup>£</sup>55<sub>/month</sub></h2>
+                        <sub style="margin-left: 70px;color: #fc3c6b;font-size: 14px;">you save £20</sub>
                         <p>Nail Cutting & Styling</p>
                         <p>Hot Hair Coloring</p>
                         <p>Hot Oil Massage</p>
@@ -301,7 +375,8 @@
                         <div class="recomended-text"><span>Recommended</span></div>
                         <h3>Gold Pack</h3>
                         <hr>
-                        <h2><sup>$</sup>65<sub>/month</sub></h2>
+                        <h2><sup>£</sup>65<sub>/month</sub></h2>
+                        <sub style="margin-left: 70px;color: #fc3c6b;font-size: 14px;">you save £30</sub>
                         <p>Nail Cutting & Styling</p>
                         <p>Hot Hair Coloring</p>
                         <p>Hot Oil Massage</p>
@@ -313,7 +388,8 @@
                     <div class="pricing-box text-center" style="background: url(img/gold.jpg) no-repeat center / cover;">
                         <h3>Platinum Pack</h3>
                         <hr>
-                        <h2><sup>$</sup>105<sub>/month</sub></h2>
+                        <h2><sup>£</sup>105<sub>/month</sub></h2>
+                        <sub style="margin-left: 70px;color: #fc3c6b;font-size: 14px;">you save £45</sub>
                         <p>Nail Cutting & Styling</p>
                         <p>Hot Hair Coloring</p>
                         <p>Hot Oil Massage</p>
@@ -338,12 +414,12 @@
         <div class="layer1">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <h2>FOR YOUR BEAUTY SALON</h2>
+                    <div class="col-md-10">
+                        <h2>BOOK APPOINTMENT SHINE BEAUTY LOUNGE</h2>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-2">
                         <div class="book_block">
-                            <a href="#" class="site-button outline" style="background-color: #fc3c6b !important;color:#fff;border-radius:7px;padding:15px 50px;float:right;">BOOK APPOINTMENT</a>
+                            <a href="index.html#form" class="site-button outline" style="background-color: #fc3c6b !important;color:#fff;border-radius:7px;padding:15px 50px;float:right;">Click Here</a>
                         </div>
                     </div>
                 </div>
@@ -413,28 +489,28 @@
 
 </main>
 <footer>
-    <div class="container-fluid footer_block padding_block" style="background-color: #81213d;padding:20px 0;width:100%;float:left;">
+    <div class="container-fluid footer_block" style="background-color: #81213d;padding:20px 0;width:100%;float:left;">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 animation animated fadeInLeft" data-animation="fadeInLeft" data-animation-delay="0.1s" style="animation-delay: 0.1s; visibility: visible;">
                     <h3>Quick Contact</h3>
                     <div class="under_line1"></div>
                     <ul>
                         <li style="line-height: 35px;"><a href="#">
                             <i class="fa fa-map"></i>
-                            Lower Level Mall, <br>
-                            Union Square Shopping Centre Guild Square Aberdeen, AB11 5PN
+                            119 george street , <br>
+                            aberdeen, AB25 1HU. UK
                         </a></li>
                         <li><a href="#">
                             <i class="fa fa-envelope"></i>
-                            info@shinebeautylounge.com
+                            info@customer.serviceshinebeautylounge.com
                         </a></li>
                         <li><a href="#">
                             <i class="fa fa-phone"></i>
                             01 - 224 638 124
                         </a></li>
                         <li><a href="#">
-                            <i class="fa fa-mobile"></i>
+                            <i class="fa fa-mobile" style="font-size:20px;"></i>
                             07342884474
                         </a></li>
                     </ul>
@@ -446,14 +522,11 @@
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                         <a href="#" target="_blank" class="social-button facebook">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                        <a href="#" target="_blank" class="social-button facebook">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-3 offset-md-1 offset-sm-0">
+                <div class="col-md-3 offset-md-1 offset-sm-0 animation animated fadeInLeft" data-animation="fadeInLeft" data-animation-delay="0.1s" style="animation-delay: 0.1s; visibility: visible;">
                     <h3>Opening Hours</h3>
                     <div class="under_line1"></div>
                     <ul>
@@ -466,7 +539,7 @@
                         <li><a href="#">Sunday : 11 am to 5 pm</a></li>
                     </ul>
                 </div>
-                <div class="col-md-2 offset-md-2 offset-sm-0">
+                <div class="col-md-2 offset-md-2 offset-sm-0 animation animated fadeInLeft" data-animation="fadeInLeft" data-animation-delay="0.1s" style="animation-delay: 0.1s; visibility: visible;">
                     <h3>Quick Links</h3>
                     <div class="under_line1"></div>
                     <ul>
@@ -518,6 +591,74 @@
     });
 </script>
 
+
+
+<script>
+    $("nav .menu1").addClass("responsive-menu").before('<div class="responsive-menu-icon"></div>');
+
+    $(".responsive-menu-icon").click(function(){
+        $(this).next("nav .menu1").slideToggle();
+        $("nav").toggleClass('openwide');
+        $('header').toggleClass('nav-toggle');
+    });
+
+
+
+    $("nav .menu1 > .menu-item").click(function(event){
+        if (event.target !== this)
+            return;
+        $(this).find(".sub-menu:first").slideToggle(function() {
+            $(this).parent().toggleClass("menu-open");
+        });
+    });
+</script>
+
+<!-- JAVASCRIPT FILES ========================================= -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/wow/wow.js"></script><!-- WOW JS -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/bootstrap/js/popper.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/bootstrap/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/bootstrap-select/bootstrap-select.min.js"></script><!-- FORM JS -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script><!-- FORM JS -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC POPUP JS -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/counter/waypoints-min.js"></script><!-- WAYPOINTS JS -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/counter/counterup.min.js"></script><!-- COUNTERUP JS -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/imagesloaded/imagesloaded.js"></script><!-- IMAGESLOADED -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/masonry/masonry-3.1.4.js"></script><!-- MASONRY -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/masonry/masonry.filter.js"></script><!-- MASONRY -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/owl-carousel/owl.carousel.js"></script><!-- OWL SLIDER -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/rangeslider/rangeslider.js" ></script><!-- Rangeslider -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/js/dz.carousel.js"></script><!-- SORTCODE FUCTIONS  -->
+<script src='https://www.google.com/recaptcha/api.js'></script> <!-- Google API For Recaptcha  -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/js/dz.ajax.js"></script><!-- CONTACT JS  -->
+<!-- revolution JS FILES -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<!-- Slider revolution 5.0 Extensions  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/revolution/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="https://s3.ap-south-1.amazonaws.com/dzon-html/beautyzone/xhtml/js/rev.slider.js"></script>
+<script>
+    if(screen.width > 720){
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            loop:true,
+            autoplay:true,
+            autoplayTimeout:2000,
+        });
+    } else{
+        alert(1);
+    }
+
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 <script>
     $(document).ready(function(){
@@ -544,25 +685,7 @@
     });
 </script>
 
-<script>
-    $("nav .menu1").addClass("responsive-menu").before('<div class="responsive-menu-icon"></div>');
 
-    $(".responsive-menu-icon").click(function(){
-        $(this).next("nav .menu1").slideToggle();
-        $("nav").toggleClass('openwide');
-        $('header').toggleClass('nav-toggle');
-    });
-
-
-
-    $("nav .menu1 > .menu-item").click(function(event){
-        if (event.target !== this)
-            return;
-        $(this).find(".sub-menu:first").slideToggle(function() {
-            $(this).parent().toggleClass("menu-open");
-        });
-    });
-</script>
 
 </body>
 </html>
